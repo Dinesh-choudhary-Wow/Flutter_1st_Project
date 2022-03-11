@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    final String ShopIntro = "Welcome to New1 Mathaji textiles";
+    // ignore: constant_identifier_names
+    const String ShopIntro = "Welcome to New1 Mathaji textiles";
 
     return Scaffold(
       appBar: AppBar(
         title: Text("Catelog Collections"),
       ),
       body: Center(
+        // ignore: avoid_unnecessary_containers
         child: Container(
           child: Text('$ShopIntro'),
         ),

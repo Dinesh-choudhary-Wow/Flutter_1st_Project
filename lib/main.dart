@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_newp/utils/routes.dart';
 
 import 'screens/home_page.dart';
 import 'screens/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -21,11 +22,12 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
+      // debugShowCheckedModeBanner: false,
       // initialRoute: "/home",
       routes: {
-        "/": (context) => LoginPage(),
-        "/home": (context) => HomePage(),
-        "/login": (context) => LoginPage(),
+        "/": (context) => const LoginPage(),
+        MyRoutes.homeRoute: (context) => const HomePage(),
+        MyRoutes.loginRoute: (context) => const LoginPage(),
       },
     );
   }
