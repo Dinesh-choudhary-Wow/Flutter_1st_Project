@@ -14,7 +14,6 @@ class HomePage extends StatelessWidget {
         title: Text("Catelog Collections"),
       ),
       body: Center(
-        // ignore: avoid_unnecessary_containers
         child: Container(
           child: Text('$ShopIntro'),
         ),
