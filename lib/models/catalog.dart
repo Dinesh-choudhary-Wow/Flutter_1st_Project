@@ -1,5 +1,17 @@
+class CatelogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: "Shirt",
+        desc: "Slim Shirt(full Sleeves)",
+        price: 599,
+        color: "green",
+        image: "assets/images/shirt01.jpg")
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -14,13 +26,3 @@ class Item {
       required this.color,
       required this.image});
 }
-
-final products = [
-  Item(
-      id: "Shirt01",
-      name: "Shirt",
-      desc: "Slim Shirt(full Sleeves)",
-      price: 599,
-      color: "green",
-      image: "assets/images/shirt01.jpg")
-];
