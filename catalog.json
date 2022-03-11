@@ -1,0 +1,91 @@
+{
+    "products": [{
+            "id": "Shirt01",
+            "name": "Shirt",
+            "desc": "Slim Shirt(full Sleeves)",
+            "price": 599,
+            "color": "green",
+            "image": "assets/images/shirt01.jpg"
+        },
+        {
+            "id": "Shirt02",
+            "name": "Shirt",
+            "desc": "long Shirt(full Sleeves)",
+            "price": 799,
+            "color": "yellow",
+            "image": "assets/images/shirt02.jpg"
+        },
+        {
+            "id": "Shirt03",
+            "name": "Shirt",
+            "desc": "Slim Shirt(full Sleeves)",
+            "price": 899,
+            "color": "blue",
+            "image": "assets/images/shirt03.jpg"
+        },
+        {
+            "id": "Shirt04",
+            "name": "Shirt",
+            "desc": "long Shirt(half Sleeves)",
+            "price": 569,
+            "color": "pink",
+            "image": "assets/images/shirt04.jpg"
+        },
+        {
+            "id": "Shirt05",
+            "name": "Shirt",
+            "desc": "Slim Shirt(half Sleeves)",
+            "price": 769,
+            "color": "orange",
+            "image": "assets/images/shirt05.jpg"
+        },
+        {
+            "id": "Shirt06",
+            "name": "Shirt",
+            "desc": "Slim Shirt(half Sleeves)",
+            "price": 489,
+            "color": "pitch",
+            "image": "assets/images/shirt06.jpg"
+        },
+        {
+            "id": "Shirt07",
+            "name": "Shirt",
+            "desc": "long Shirt(half Sleeves)",
+            "price": 679,
+            "color": "green",
+            "image": "assets/images/shirt07.jpg"
+        },
+        {
+            "id": "Shirt08",
+            "name": "Shirt",
+            "desc": "long Shirt(half Sleeves)",
+            "price": 349,
+            "color": "violet",
+            "image": "assets/images/shirt08.jpg"
+        },
+        {
+            "id": "Jeans01",
+            "name": "jeans Pant",
+            "desc": "Ancle Jeans(Narrow Fit)",
+            "price": 959,
+            "color": "blue",
+            "image": "assets/images/jeans01.jpg"
+        },
+        {
+            "id": "Jeans02",
+            "name": "jeans Pant",
+            "desc": "Ancle Jeans(Narrow Fit)",
+            "price": 1099,
+            "color": "black",
+            "image": "assets/images/jeans02.jpg"
+        },
+        {
+            "id": "Jeans03",
+            "name": "jeans Pant",
+            "desc": "Ancle Jeans(Narrow Fit)",
+            "price": 879,
+            "color": "gray",
+            "image": "assets/images/jeans03.jpg"
+        }
+    ]
+}
