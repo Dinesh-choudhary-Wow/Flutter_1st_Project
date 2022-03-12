@@ -4,13 +4,12 @@ class MyDrawer extends StatelessWidget {
   const MyDrawer({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    final imageUrl = "";
     return Drawer(
       child: Container(
         color: Colors.deepOrange,
         child: ListView(
           padding: EdgeInsets.zero,
-          children: [
+          children: const [
             DrawerHeader(
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(

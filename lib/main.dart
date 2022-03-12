@@ -4,7 +4,6 @@ import 'package:flutter_newp/widgets/themes.dart';
 
 import 'screens/home_page.dart';
 import 'screens/login_page.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
