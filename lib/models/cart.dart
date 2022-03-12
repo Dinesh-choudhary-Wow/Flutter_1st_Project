@@ -1,6 +1,13 @@
 import 'package:flutter_newp/models/catalog.dart';
 
 class CartModel {
+  //single ton class means once object created if it repeats it reterives the same object
+  static final cartModel = CartModel._internal();
+
+  CartModel._internal();
+
+  factory CartModel() => cartModel;
+
   // catalog field
   late CatalogModel _catalog;
   //collections of Ids - store id of each item
