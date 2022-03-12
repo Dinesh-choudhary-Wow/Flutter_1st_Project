@@ -13,15 +13,19 @@ class HomeDetailPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: MyTheme.creamColor,
+      backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
-        color: const Color.fromARGB(255, 117, 209, 245),
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
           children: [
             "Rs ${catalog.price}/-".text.bold.xl3.red800.make(),
             ElevatedButton(
+              style: ButtonStyle(
+                backgroundColor:
+                    MaterialStateProperty.all(context.theme.buttonColor),
+              ),
               onPressed: () {}, //style button if needed
               child: "Add to Cart".text.make(),
             ).wh(110, 40)
@@ -42,10 +46,13 @@ class HomeDetailPage extends StatelessWidget {
               edge: VxEdge.TOP,
               child: Container(
                 width: context.screenWidth,
-                color: Colors.white,
+                color: context.cardColor,
                 child: Column(
                   children: [
-                    catalog.name.text.xl4.color(MyTheme.darkPurple).bold.make(),
+                    catalog.name.text.xl4
+                        .color(context.accentColor)
+                        .bold
+                        .make(),
                     catalog.desc.text.xl.make(),
                     10.heightBox,
                     "There are two main categories of fibres used: natural fibre and man-made fibre Some natural fibres are linen, the first used historically, hemp."
