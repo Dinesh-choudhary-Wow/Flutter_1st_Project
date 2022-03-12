@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 class CatalogModel {
+  // ignore: prefer_typing_uninitialized_variables
   static var items;
 }
 

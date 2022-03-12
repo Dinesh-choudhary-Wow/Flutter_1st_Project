@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+// import 'package:google_fonts/google_fonts.dart';
 
 class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
-      // fontFamily: GoogleFonts.lato().fontFamily,
+      // fontFamily: GoogleFonts.poppins().fontFamily,
       primarySwatch: Colors.deepOrange,
       appBarTheme: AppBarTheme(
         color: Colors.white,
@@ -21,4 +22,8 @@ class MyTheme {
         toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
         titleTextStyle: Theme.of(context).textTheme.headline6,
       ));
+
+//Colors
+  static Color creamColor = const Color(0xfff5f5f5);
+  static Color darkPurple = const Color.fromARGB(255, 6, 10, 66);
 }
