@@ -10,10 +10,12 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
-        color: Color.fromARGB(255, 117, 209, 245),
+        color: const Color.fromARGB(255, 117, 209, 245),
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
@@ -21,8 +23,8 @@ class HomeDetailPage extends StatelessWidget {
             "Rs ${catalog.price}/-".text.bold.xl3.red800.make(),
             ElevatedButton(
               onPressed: () {}, //style button if needed
-              child: "Buy".text.make(),
-            ).wh(80, 40)
+              child: "Add to Cart".text.make(),
+            ).wh(110, 40)
           ],
         ).p32(),
       ),
@@ -46,6 +48,10 @@ class HomeDetailPage extends StatelessWidget {
                     catalog.name.text.xl4.color(MyTheme.darkPurple).bold.make(),
                     catalog.desc.text.xl.make(),
                     10.heightBox,
+                    "There are two main categories of fibres used: natural fibre and man-made fibre Some natural fibres are linen, the first used historically, hemp."
+                        .text
+                        .make()
+                        .p16()
                   ],
                 ).py64(),
               ),
