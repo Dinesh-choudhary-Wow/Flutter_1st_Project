@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_newp/models/cart.dart';
 import 'package:flutter_newp/models/catalog.dart';
 import 'package:flutter_newp/screens/home_detail_page.dart';
 import 'package:flutter_newp/widgets/home_widgets/add_to_cart.dart';

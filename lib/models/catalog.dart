@@ -1,11 +1,12 @@
 import 'dart:convert';
 
 class CatalogModel {
-  static final catModel = CatalogModel._internal();
+  // static final catModel = CatalogModel._internal();
 
-  CatalogModel._internal();
+  // CatalogModel._internal();
 
-  factory CatalogModel() => catModel;
+  // factory CatalogModel() => catModel;
+  // removed singleton becz worst code
 
   // ignore: prefer_typing_uninitialized_variables
   static var items;

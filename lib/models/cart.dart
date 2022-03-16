@@ -2,11 +2,12 @@ import 'package:flutter_newp/models/catalog.dart';
 
 class CartModel {
   //single ton class means once object created if it repeats it reterives the same object
-  static final cartModel = CartModel._internal();
+  // static final cartModel = CartModel._internal();
 
-  CartModel._internal();
+  // CartModel._internal();
 
-  factory CartModel() => cartModel;
+  // factory CartModel() => cartModel;
+  // removed singleton because it is worst code and more fine code is reolaced to store.cart
 
   // catalog field
   late CatalogModel _catalog;
